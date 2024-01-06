@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📅 [H] Calendar Evenimente [H] 📅</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="event-details.css">
+    <link rel="stylesheet" href="details-content.css">
+</head>
+
+<body>
+
+    <div class="message-container">
+        <div class="header">
+            <p>🌟 [H] Calendar de Evenimente [H] 🌟</p>
+            🌟 Bine ati venit! Mai jos gasiti evenimentele luni Ianuarie 🌟
+            <span class="details-link" onclick="toggleDetails()">[DETALII]</span>
+            <div class="details-content" id="detailsContent">
+                <p>🌟 Pentru aceasta luna, Echipa Administrativa a pregatit o multime de evenimente pentru voi! 🌟</p>
+                <p>🌟 Evenimentele se desfasoara intre orele 20:00 - 22:00 🌟</p>
+                <p>🌟 Aceste evenimente sunt organizate de catre @.Plaxy / @Fatabu 🌟</p>
+                <p><center>Ultima Actualizare: 06/01/2024</center></p>
+            </div>
+        </div>
+
+        <div class="event" id="event1">
+            <div class="event-date">🟢 3 IANUARIE 🟢</div>
+            <div class="event-details">🎮 Ghiceste Cuvantul (Premii: 2kkk / Castigator, 5 Castigatori) 🏅</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event1')">👁️</div>
+        </div>
+
+        <div class="event" id="event2">
+            <div class="event-date">🔴 6 IANUARIE 🔴</div>
+            <div class="event-details">🧠 Trivia (Premii: 2kkk / Castigator, 5 castigatori) 🏆</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event2')">👁️</div>
+        </div>
+
+        <div class="event" id="event3">
+            <div class="event-date">🔴 7 IANUARIE 🔴</div>
+            <div class="event-details">🎁 Extragere Giveaway 🎁</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event3')">👁️</div>
+        </div>
+
+        <div class="event" id="event4">
+            <div class="event-date">🔴 8 IANUARIE 🔴</div>
+            <div class="event-details">🎮 Ghiceste Cuvantul (Premii: 3kkk / Castigator, 3 Castigatori) 🏅</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event4')">👁️</div>
+        </div>
+
+        <div class="event" id="event5">
+            <div class="event-date">🔴 10 IANUARIE 🔴</div>
+            <div class="event-details">🧠 Trivia (Premii: 5kkk / Castigator, 2 Castigatori) 🏆</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event5')">👁️</div>
+        </div>
+
+        <div class="event" id="event6">
+            <div class="event-date">🔴 11 IANUARIE 🔴</div>
+            <div class="event-details">🎮 Eveniment de tip 1v1 (Inscrierea costa 1kkk, iar castigatorul ia toti banii) 🚀</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event6')">👁️</div>
+        </div>
+
+        <div class="event" id="event7">
+            <div class="event-date">🔴 13 IANUARIE 🔴</div>
+            <div class="event-details">🔫 The first to kill me (Primul ce ma omoara | Premiu 5kkk) 💣</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event7')">👁️</div>
+        </div>
+
+        <div class="event" id="event8">
+            <div class="event-date">🔴 14 IANUARIE 🔴</div>
+            <div class="event-details">🎰 Par / Impar (Recompensele sunt: Locul 1 = 5kkk | Locul 2 = 2.5kkk) 🎲</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event8')">👁️</div>
+        </div>
+
+        <div class="event" id="event9">
+            <div class="event-date">🔴 17 IANUARIE 🔴</div>
+            <div class="event-details">🎮 Ghiceste Cuvantul (Premii 2kkk / Castigator | 5 Castigatorii) 🎁</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event9')">👁️</div>
+        </div>
+
+        <div class="event" id="event10">
+            <div class="event-date">🔴 20 IANUARIE 🔴</div>
+            <div class="event-details">🔍 The first to reach me (Primul ce ajunge la mine | 5kkk Castigator) 🏁</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event10')">👁️</div>
+        </div>
+
+        <div class="event" id="event11">
+            <div class="event-date">🔴 21 IANUARIE 🔴</div>
+            <div class="event-details">🔍 The first to reach me (Primul ce ajunge la mine | 5kkk / Castigator | 2x Castigatorii) 🏆</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event11')">👁️</div>
+        </div>
+
+        <div class="event" id="event12">
+            <div class="event-date">🔴 24 IANUARIE 🔴</div>
+            <div class="event-details">🔍 The first to reach me with the engine (Primul ce ajunge cu un motor pe o cladire | Premiu 5kkk) 🚗</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event12')">👁️</div>
+        </div>
+
+        <div class="event" id="event13">
+            <div class="event-date">🔴 27 IANUARIE 🔴</div>
+            <div class="event-details">🎤 Simon Spune (Premiu: 5kkk) 🎤</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event13')">👁️</div>
+        </div>
+
+        <div class="event" id="event14">
+            <div class="event-date">🔴 28 IANUARIE 🔴</div>
+            <div class="event-details">🎮 Ghiceste Cuvantul (Premii: 5kkk / Castigator, 3 Castigatorii) 🎁</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event14')">👁️</div>
+        </div>
+
+        <div class="event" id="event15">
+            <div class="event-date">🔴 31 IANUARIE 🔴</div>
+            <div class="event-details">🎁 Extragere Giveaway 🎁</div>
+            <div class="eye-icon" onclick="toggleEventDetails('event15')">👁️</div>
+        </div>
+
+        <div class="footer">
+            🎊 Alaturati-va evenimentelor noastre si sa avem o luna minunata! 🎊
+        </div>
+
+        <div class="copyright">
+            🏆 © Discord: .Plaxy 🏆
+        </div>
+    </div>
+
+    <div class="details-container" id="detailsContainer" onclick="closeDetails()">
+        <div class="details-content-box" id="detailsContentBox"></div>
+    </div>
+
+    <div class="event-details-container" id="eventDetailsContainer" onclick="closeEventDetails()">
+        <div class="event-details-content" id="eventDetailsContent"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
