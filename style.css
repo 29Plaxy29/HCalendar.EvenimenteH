@@ -99,6 +99,13 @@ body::before {
     color: #008080;
 }
 
+.sorry {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ffff00;
+}
+
 .copyright {
     text-align: center;
     margin-top: 20px;
